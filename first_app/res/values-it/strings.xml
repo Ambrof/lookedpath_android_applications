@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Debla\'s App</string>
+    <string name="hello_world">Hai perso!</string>
+    <string name="menu_settings">Impostazioni</string>
+    <string name="title_activity_main">Debla\'s App</string>
+    <string name="button">Clicca</string>
+    <string name="next">E io no!</string>
+
+</resources>
