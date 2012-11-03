@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lookedpath.firstlesson"
     android:versionCode="1"
-    android:versionName="1.5" >
+    android:versionName="@string/version" >
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -25,6 +26,12 @@
             android:label="@string/menu_settings"
             android:theme="@style/AppTheme">
 </activity>
+        <activity 
+            android:name=".Update"
+            android:label="@string/update"
+            android:theme="@style/AppTheme">
+</activity>
+
     </application>
 
 </manifest>

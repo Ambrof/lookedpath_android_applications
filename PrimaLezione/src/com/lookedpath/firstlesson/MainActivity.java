@@ -32,15 +32,23 @@ public class MainActivity extends Activity {
     		next=false;
     		testo.setText(R.string.first);
     	}
-
     }
     public void goToInfo (View view) {
     	setContentView(R.layout.info);
     }
+    public void goToUpdate (View view ) {
+    	startActivity(new Intent(this, Update.class));
+    }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-    	if  (item.getItemId()==R.id.menu_settings) startActivity(new Intent(this, About.class));
-        return true;
+    	switch(item.getItemId()) {
+    	case R.id.menu_settings:
+    		startActivity(new Intent(this, About.class));
+    		break;
+    	case R.id.update:
+    		setContentView(R.layout.update);
+    	}
+    	return true;
     }
 
 }
