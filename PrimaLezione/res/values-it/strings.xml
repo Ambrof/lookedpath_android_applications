@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">LP First App</string>
-    <string name="hello_world">Hai perso!</string>
+    <string name="first">Hai perso!</string>
     <string name="menu_settings">Info</string>
     <string name="title_activity_main">LP First App</string>
     <string name="button">Clicca</string>

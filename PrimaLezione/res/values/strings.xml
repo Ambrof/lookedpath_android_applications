@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">LP First App</string>
-    <string name="hello_world">You Lost The Game!</string>
+    <string name="first">You Lost The Game!</string>
     <string name="menu_settings">Info</string>
     <string name="title_activity_main">LP First App</string>
     <string name="button">Click</string>
