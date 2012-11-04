@@ -36,9 +36,9 @@ public class MainActivity extends Activity {
     public void goToInfo (View view) {
     	setContentView(R.layout.info);
     }
-    public void goToUpdate (View view ) {
-    	startActivity(new Intent(this, Update.class));
-    }
+   
+
+    
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	switch(item.getItemId()) {
@@ -46,7 +46,8 @@ public class MainActivity extends Activity {
     		startActivity(new Intent(this, About.class));
     		break;
     	case R.id.update:
-    		setContentView(R.layout.update);
+    		startActivity(new Intent(this, Update.class));
+    		
     	}
     	return true;
     }
