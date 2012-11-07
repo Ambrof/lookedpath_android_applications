@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lookedpath.firstlesson"
-    android:versionCode="1"
-    android:versionName="@string/version" >
+    package="com.lookedpath.firstapp"
+    android:versionCode="2"
+    android:versionName="2.0" >
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <uses-sdk

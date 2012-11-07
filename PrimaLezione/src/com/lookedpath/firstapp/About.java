@@ -1,4 +1,4 @@
-package com.lookedpath.firstlesson;
+package com.lookedpath.firstapp;
 
 import android.app.Activity;
 import android.content.Intent;
